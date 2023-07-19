@@ -651,9 +651,15 @@ footer {
   text-align: center;
 }
 
-.footer-icons span {
+.footer-icons button {
   margin-right: 40px;
   font-size: 30px;
+  color: white;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.footer-icons button a {
   color: white;
 }
 
