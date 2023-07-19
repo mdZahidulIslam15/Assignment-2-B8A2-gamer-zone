@@ -265,6 +265,116 @@
 }
 /* Gamer area end */
 
+/* online games section start */
+.online-games-container {
+  /* border: 1px solid blue; */
+  max-width: 1100px;
+  margin: 50px auto;
+}
+
+.online-games-title {
+  color: #0b0223;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.title-pink {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.online-games-p {
+  color: #534c64;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5px 0 27px 0;
+}
+
+.online-games-img-box {
+  display: grid;
+  /* border: 1px solid rebeccapurple; */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.box-p {
+  color: #534c64;
+  font-size: 14px;
+  font-weight: 500;
+  /* line-height: 20px; */
+  padding: 10px 5px;
+}
+
+.box-all-element img {
+  width: 100%;
+}
+
+#box-hover img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#overlay-img {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
+  border-radius: 16px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#box-hover:hover .overlay {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* .box-all-element {
+  width: 300px;
+  height: 400px;
+} */
+
+/* online games section end */
+
 /* responsive area start */
 @media screen and (max-width: 576px) {
   .nav-area {
@@ -323,6 +433,10 @@
   .gamer-text {
     text-align: center;
   }
+  .online-games-img-box {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
 }
 
 /* for medium device style like tablet */
@@ -341,5 +455,15 @@
   }
   .hero-h1 {
     text-align: center;
+  }
+  .gamer-container {
+    flex-direction: column;
+  }
+  .gamer-text {
+    text-align: center;
+  }
+  .online-games-img-box {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
   }
 }
