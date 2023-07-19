@@ -62,10 +62,6 @@
   background: rgba(11, 2, 35, 0.1);
 }
 
-/* .Follow {
-  margin-right: 24px;
-} */
-
 .menus li,
 .yt {
   margin: 0 16px;
@@ -94,32 +90,27 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid black; */
   padding: 50px 0;
 }
 
 .hero-text {
-  /* border: 1px solid red; */
   width: 50%;
   padding-left: 15px;
 }
 
 .hero-text {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 }
 
 .hero-h3 {
   color: #0b0223;
-  /* text-align: center; */
   font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .hero-h1 {
-  /* text-align: center; */
   font-size: 58px;
   font-weight: 800;
   text-transform: uppercase;
@@ -151,7 +142,6 @@
 
 .hero-text li {
   color: #534c64;
-  /* text-align: center; */
   font-family: Work Sans;
   font-size: 20px;
   font-style: normal;
@@ -181,12 +171,7 @@
   text-transform: uppercase;
 }
 
-/* .all-hero-icon {
-  margin-right: 10px;
-} */
-
 .hero-img {
-  /* border: 1px solid rebeccapurple; */
   width: 50%;
 }
 
@@ -202,13 +187,11 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
-  /* border: 1px solid black; */
   margin: 0 auto;
 }
 
 .gamer-img {
   width: 50%;
-  /* border: 2px solid blue; */
 }
 
 .gamer-img img {
@@ -218,8 +201,6 @@
 
 .gamer-text {
   width: 85%;
-  /* border: 1px solid rebeccapurple; */
-  /* display: flex; */
   text-align: end;
 }
 
@@ -267,7 +248,6 @@
 
 /* online games section start */
 .online-games-container {
-  /* border: 1px solid blue; */
   max-width: 1100px;
   margin: 50px auto;
 }
@@ -296,7 +276,6 @@
 
 .online-games-img-box {
   display: grid;
-  /* border: 1px solid rebeccapurple; */
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 0 20px;
@@ -306,7 +285,6 @@
   color: #534c64;
   font-size: 14px;
   font-weight: 500;
-  /* line-height: 20px; */
   padding: 10px 5px;
 }
 
@@ -375,7 +353,6 @@
   display: flex;
   align-items: center;
   max-width: 1100px;
-  /* border: 1px solid black; */
   margin: 50px auto;
 }
 
@@ -410,7 +387,6 @@
 
 .play-instantly-img {
   width: 50%;
-  /* border: 1px solid rgb(81, 255, 0); */
   position: relative;
   padding: 0 0 70px 0;
 }
@@ -422,7 +398,6 @@
 .instant-img2 {
   width: 35%;
   position: absolute;
-  /* top: 0; */
   left: -83px;
   bottom: -1px;
 }
@@ -434,13 +409,11 @@
   flex-direction: row-reverse;
   align-items: center;
   max-width: 1100px;
-  /* border: 1px solid black; */
   margin: 100px auto;
 }
 
 .play-anywhere-img {
   width: 50%;
-  /* border: 1px solid rgb(81, 255, 0); */
   position: relative;
   padding: 0 0 70px 0;
 }
@@ -448,13 +421,11 @@
 .anywhere-img2 {
   width: 35%;
   position: absolute;
-  /* top: 0; */
   right: -90px;
   bottom: 1px;
 }
 
 .play-anywhere-text {
-  /* border: 1px solid red; */
   width: 50%;
   text-align: start;
   padding-left: 165px;
@@ -471,20 +442,12 @@
 .career-container {
   display: flex;
   align-items: center;
-  /* max-width: 1100px; */
-  /* border: 1px solid black; */
   margin: 0 auto;
-  /* background-image: url("images/Group\ 14.png"); */
-  /* background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
-  /* height: 80vh; */
   padding: 0 0 0 110px;
 }
 
 .career-text {
   width: 50%;
-  /* border: 1px solid #0b0223; */
 }
 
 .career-title {
@@ -537,7 +500,6 @@
 
 .career-img {
   width: 50%;
-  /* border: 1px solid blue; */
 }
 
 .career-img img {
@@ -547,7 +509,6 @@
 
 /* game genre section start */
 .game-genre-container {
-  /* border: 1px solid black; */
   height: 400px;
   display: flex;
   align-items: center;
@@ -559,8 +520,6 @@
   max-width: 1100px;
   height: 300px;
   align-content: center;
-  /* position: relative; */
-  /* border: 2px solid darkblue; */
   margin: 0 auto;
   gap: 15px;
   justify-content: center;
@@ -572,12 +531,9 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  /* position: absolute; */
-  /* border: 1px solid #0b0223; */
   background: #fff;
   border-radius: 50px;
   padding: 8px 10px;
-  /* opacity: 0; */
   transition: 0.29s ease-in-out;
   text-decoration: none;
 }
@@ -596,7 +552,6 @@
   border: 1px solid #0b0223;
   cursor: pointer;
   border-radius: 50px;
-  /* transition: 0.29s ease-in-out; */
 }
 
 /* game genre section end */
@@ -609,7 +564,6 @@ footer {
   height: 500px;
   background: #0b0223;
   color: rgba(255, 255, 255, 0.6);
-  /* text-align: center; */
 }
 
 /* footer logo start */
