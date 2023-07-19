@@ -745,6 +745,12 @@ footer {
   .gamer-container {
     flex-direction: column;
   }
+
+  .gamer-img {
+    width: 85%;
+    /* border: 2px solid blue; */
+  }
+
   .gamer-text {
     text-align: center;
   }
